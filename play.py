@@ -1,26 +1,55 @@
+score = 0
 userval=input("Do you want to play a game?")
 if userval == "yes":
     print("you want to play a game")
-    userval=input("What number between 1-5 am I thinking of")
-    
+else:
+    quit()
+
+userval=input("What number between 1-5 am I thinking of: ")
 if userval == "1":
-    print("wrong")
-    userval=input("Do you want to play again?")
-    
-    
+    print("wrong")   
 elif userval == "2":
     print("wrong")
 elif userval == "3":
     print("wrong")
 elif userval == "4":
     print("correct")
-    print("you won!")
+    score+=1
 elif userval == "5":
     print("wrong")
-    
-
 else:
     quit()
 
     
+userval=input("What number between 1-5 am I thinking of: ")
+if userval == "1":
+    print("wrong")   
+elif userval == "2":
+    print("wrong")
+elif userval == "3":
+    print("correct")
+    score+=1
+elif userval == "4":
+    print("wrong")
+elif userval == "5":
+    print("wrong")
+else:
+    quit()
 
+userval=input("What number between 1-5 am I thinking of: ")
+if userval == "1":
+    print("correct")
+    score+=1   
+elif userval == "2":
+    print("wrong")
+elif userval == "3":
+    print("wrong")
+elif userval == "4":
+    print("wrong")
+elif userval == "5":
+    print("wrong")
+else:
+    quit()
+
+print("your score is: {}".format(score) )
+quit()
