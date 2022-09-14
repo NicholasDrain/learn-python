@@ -1,8 +1,6 @@
 score = 0
 userval=input("Do you want to play a game?")
-if userval == "yes":
-    print("you want to play a game")
-else:
+if userval == "no":
     quit()
 
 userval=input("What number between 1-5 am I thinking of: ")
