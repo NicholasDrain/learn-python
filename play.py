@@ -1,5 +1,5 @@
 score = 0
-userval=input("Do you want to play a game?")
+userval = input("Do you want to play a game?")
 if userval == "no":
     quit()
 
